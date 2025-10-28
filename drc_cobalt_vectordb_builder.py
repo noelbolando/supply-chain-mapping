@@ -99,9 +99,9 @@ def extract_entities(vectorstore, query):
     context = "\n\n".join([r.page_content for r in results])
     prompt = f"""
     From the text below, extract:
-    - Entities (companies, locations, government bodies)
-    - Relationships (ownership, refining, export, regulation)
-    - Dates or years
+    - Information about cobalt entities (such as companies, locations, government bodies)
+    - Inforamtion about relationships between entitites (ownership, refining, export, regulation)
+    - Inforamtion about the dates or years of these relationships 
     Return the results as structured JSON.
 
     Text:
@@ -109,7 +109,7 @@ def extract_entities(vectorstore, query):
     """
 
     output = llm.invoke(prompt)
-    print("🕸️ Extracted Structure:\n")
+    print("Extracted Structure:\n")
     print(output)
 
 
@@ -124,6 +124,6 @@ if __name__ == "__main__":
     vectorstore = load_vectorstore()
 
     # Example queries
-    query_supply_chain(vectorstore, "Which companies mine cobalt in the DRC?")
-    extract_entities(vectorstore, "domestic mining capacity in Katanga province")
+    query_supply_chain(vectorstore, "Please provide me a list of all companies that mine cobalt in the DRC? Please be verbose in your answer and provide which source you are referencing.")
+    extract_entities(vectorstore, "Tell me about the cobalt mining capacity in the DRC. Which companies are doing the mining, which countries are they affiiated with, and how long have they been in operation? Please be verbose with your answer and provid which source you are referring to in your answer.")
     
