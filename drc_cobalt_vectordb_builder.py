@@ -6,7 +6,7 @@ for reconstructing cobalt supply chains in the DRC.
 Uses Ollama for both embeddings and LLM reasoning.
 """
 
-# --- Imports ---
+# Import libraries 
 import os
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain_community.llms import Ollama
@@ -16,7 +16,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains import RetrievalQA
 
 
-# --- CONFIG ---
+# Setup/Configs
 DATA_DIR = "data/reports/"
 DB_PATH = "embeddings/faiss_cobalt_db"
 EMBED_MODEL = "nomic-embed-text"
@@ -25,7 +25,7 @@ LLM_MODEL = "mistral"
 os.makedirs("embeddings", exist_ok=True)
 
 
-# --- STEP 1: Load and Chunk PDFs ---
+# Step 1 - Load and Chunk PDFs
 def load_and_chunk_pdfs(pdf_dir):
     print("Loading and chunking PDFs...")
     all_chunks = []
@@ -47,7 +47,7 @@ def load_and_chunk_pdfs(pdf_dir):
     return all_chunks
 
 
-# --- STEP 2: Build FAISS VectorStore ---
+# Step 2 - Build FAISS VectorStore
 def build_faiss_index(chunks):
     print("Building FAISS vectorstore with Ollama embeddings...")
     embeddings = OllamaEmbeddings(model=EMBED_MODEL)
@@ -62,7 +62,7 @@ def build_faiss_index(chunks):
     return vectorstore
 
 
-# --- STEP 3: Load FAISS and Run Local Queries ---
+# Step 3 - Load FAISS and Run Local Queries
 def load_vectorstore():
     print("Loading FAISS database...")
     embeddings = OllamaEmbeddings(model=EMBED_MODEL)
@@ -90,7 +90,7 @@ def query_supply_chain(vectorstore, query):
     print(response)
 
 
-# --- STEP 4: Entity + Relationship Extraction ---
+# Step 4 - Entity and Relationship Extraction 
 def extract_entities(vectorstore, query):
     print(f"Extracting entities/relationships for: {query}\n")
     llm = Ollama(model=LLM_MODEL)
@@ -113,7 +113,6 @@ def extract_entities(vectorstore, query):
     print(output)
 
 
-# --- MAIN ---
 if __name__ == "__main__":
     # Build the FAISS index (run this once)
     if not os.path.exists(DB_PATH):
@@ -125,6 +124,6 @@ if __name__ == "__main__":
     vectorstore = load_vectorstore()
 
     # Example queries
-    query_supply_chain(vectorstore, "Which companies refine cobalt in the DRC?")
-    extract_entities(vectorstore, "domestic refining capacity in Katanga province")
+    query_supply_chain(vectorstore, "Which companies mine cobalt in the DRC?")
+    extract_entities(vectorstore, "domestic mining capacity in Katanga province")
     
