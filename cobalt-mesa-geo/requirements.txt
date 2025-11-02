@@ -1,0 +1,10 @@
+mesa==3.3.0
+mesa-geo==0.3.3
+geopandas==0.13.0
+shapely==2.0.1
+pandas==2.2.2
+folium==0.14.0
+geopy==2.4.0
+networkx==3.1
+rtree==1.0.1
+pyproj==3.6.0

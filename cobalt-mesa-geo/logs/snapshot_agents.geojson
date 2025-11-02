@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "snapshot_agents",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "miner_0", "type": "artisanal", "cash": 308.0, "inventory": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 3061285.996815023012459, -278387.075954235100653 ] } },
+{ "type": "Feature", "properties": { "id": "miner_1", "type": "industrial", "cash": 4233.5135135135106, "inventory": 2.6645352591003757e-13 }, "geometry": { "type": "Point", "coordinates": [ 2782987.26983183901757, -1175452.608593430137262 ] } },
+{ "type": "Feature", "properties": { "id": "miner_2", "type": "artisanal", "cash": 362.0, "inventory": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 3228265.23300493368879, 166998.313752922229469 ] } },
+{ "type": "Feature", "properties": { "id": "ref_0", "type": "Lubumbashi Refinery", "cash": 8001.9772833260631, "inventory": 163.78165027115497 }, "geometry": { "type": "Point", "coordinates": [ 2838647.01522847590968, -1311585.307225944940001 ] } },
+{ "type": "Feature", "properties": { "id": "ref_1", "type": "Coast Port Refinery", "cash": 8036.0488254521633, "inventory": 161.21834972884449 }, "geometry": { "type": "Point", "coordinates": [ 5398995.303473767824471, -445640.109656026237644 ] } }
+]
+}

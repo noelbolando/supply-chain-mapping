@@ -1,0 +1,488 @@
+[
+  {
+    "tick": 0,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 10.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.024768829345703125
+  },
+  {
+    "tick": 0,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 15.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.018637895584106445
+  },
+  {
+    "tick": 0,
+    "agent": "ref_1",
+    "type": "refinery_buy",
+    "buy_amt": 25.0,
+    "cash": 9694.0,
+    "inventory": 25.0
+  },
+  {
+    "tick": 0,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 150.0,
+    "cash": 2620.0,
+    "inventory": 150.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.017078161239624023
+  },
+  {
+    "tick": 1,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.016882896423339844
+  },
+  {
+    "tick": 1,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.016387939453125
+  },
+  {
+    "tick": 1,
+    "agent": "ref_0",
+    "type": "refinery_buy",
+    "buy_amt": 150.0,
+    "cash": 8173.18,
+    "inventory": 150.0
+  },
+  {
+    "tick": 1,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 75.0,
+    "cash": 3425.95,
+    "inventory": 75.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.01747417449951172
+  },
+  {
+    "tick": 2,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 37.5,
+    "cash": 3829.3279749999997,
+    "inventory": 37.5,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.016689062118530273
+  },
+  {
+    "tick": 2,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.015336990356445312
+  },
+  {
+    "tick": 2,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.016006946563720703
+  },
+  {
+    "tick": 2,
+    "agent": "ref_1",
+    "type": "refinery_buy",
+    "buy_amt": 112.5,
+    "cash": 8322.514885,
+    "inventory": 137.5
+  },
+  {
+    "tick": 3,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.033544301986694336
+  },
+  {
+    "tick": 3,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 18.75,
+    "cash": 4031.2186514874998,
+    "inventory": 18.75,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.01621222496032715
+  },
+  {
+    "tick": 3,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.015606880187988281
+  },
+  {
+    "tick": 3,
+    "agent": "ref_1",
+    "type": "refinery_buy",
+    "buy_amt": 18.75,
+    "cash": 8093.705451647501,
+    "inventory": 156.25
+  },
+  {
+    "tick": 4,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.018906116485595703
+  },
+  {
+    "tick": 4,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 9.375,
+    "cash": 4132.264935069494,
+    "inventory": 9.375,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.018558979034423828
+  },
+  {
+    "tick": 4,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.017696142196655273
+  },
+  {
+    "tick": 4,
+    "agent": "ref_1",
+    "type": "refinery_buy",
+    "buy_amt": 9.375,
+    "cash": 7979.186330254574,
+    "inventory": 165.625
+  },
+  {
+    "tick": 5,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.015500068664550781
+  },
+  {
+    "tick": 5,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 4.6875,
+    "cash": 4182.838600002282,
+    "inventory": 4.6875,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.019165754318237305
+  },
+  {
+    "tick": 5,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.01950383186340332
+  },
+  {
+    "tick": 5,
+    "agent": "ref_0",
+    "type": "refinery_buy",
+    "buy_amt": 4.6875,
+    "cash": 8115.863179742841,
+    "inventory": 154.6875
+  },
+  {
+    "tick": 6,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 2.34375,
+    "cash": 4208.150719301142,
+    "inventory": 2.34375,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.01745319366455078
+  },
+  {
+    "tick": 6,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.01752185821533203
+  },
+  {
+    "tick": 6,
+    "agent": "ref_0",
+    "type": "refinery_buy",
+    "buy_amt": 2.34375,
+    "cash": 8087.176111204132,
+    "inventory": 157.03125
+  },
+  {
+    "tick": 6,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.017461061477661133
+  },
+  {
+    "tick": 7,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.0199129581451416
+  },
+  {
+    "tick": 7,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.020562171936035156
+  },
+  {
+    "tick": 7,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 1.171875,
+    "cash": 4220.819435010221,
+    "inventory": 1.171875,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.020044803619384766
+  },
+  {
+    "tick": 8,
+    "agent": "ref_1",
+    "type": "refinery_buy",
+    "buy_amt": 1.171875,
+    "cash": 7964.8140945731475,
+    "inventory": 166.796875
+  },
+  {
+    "tick": 8,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 0.5859375,
+    "cash": 4227.160127222615,
+    "inventory": 0.5859375,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.01656794548034668
+  },
+  {
+    "tick": 8,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.01859879493713379
+  },
+  {
+    "tick": 8,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.015862226486206055
+  },
+  {
+    "tick": 8,
+    "agent": "ref_0",
+    "type": "refinery_buy",
+    "buy_amt": 0.5859375,
+    "cash": 8079.989993363419,
+    "inventory": 157.6171875
+  },
+  {
+    "tick": 9,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.016648054122924805
+  },
+  {
+    "tick": 9,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.01868915557861328
+  },
+  {
+    "tick": 9,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 0.29296875,
+    "cash": 4230.333643674919,
+    "inventory": 0.29296875,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.015547990798950195
+  },
+  {
+    "tick": 10,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.014054059982299805
+  },
+  {
+    "tick": 10,
+    "agent": "ref_1",
+    "type": "refinery_buy",
+    "buy_amt": 0.29296875,
+    "cash": 7961.213845941891,
+    "inventory": 167.08984375
+  },
+  {
+    "tick": 10,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 0.146484375,
+    "cash": 4231.921988659296,
+    "inventory": 0.146484375,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.01471710205078125
+  },
+  {
+    "tick": 10,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.016167879104614258
+  },
+  {
+    "tick": 11,
+    "agent": "ref_1",
+    "type": "refinery_buy",
+    "buy_amt": 0.146484375,
+    "cash": 7959.411921501947,
+    "inventory": 167.236328125
+  },
+  {
+    "tick": 11,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 0.0732421875,
+    "cash": 4232.716955323977,
+    "inventory": 0.0732421875,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.020196199417114258
+  },
+  {
+    "tick": 11,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.02066802978515625
+  },
+  {
+    "tick": 11,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.017598867416381836
+  },
+  {
+    "tick": 12,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.01961374282836914
+  },
+  {
+    "tick": 12,
+    "agent": "ref_0",
+    "type": "refinery_buy",
+    "buy_amt": 0.0732421875,
+    "cash": 8079.088130181227,
+    "inventory": 157.6904296875
+  },
+  {
+    "tick": 12,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 0.03662109375,
+    "cash": 4233.11483613965,
+    "inventory": 0.03662109375,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.019507884979248047
+  },
+  {
+    "tick": 12,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown command \"generate\" for \"ollama\"",
+    "elapsed": 0.018526077270507812
+  }
+]

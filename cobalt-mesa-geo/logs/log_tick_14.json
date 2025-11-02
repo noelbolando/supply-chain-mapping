@@ -1,0 +1,510 @@
+[
+  {
+    "tick": 0,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 10.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.021129846572875977
+  },
+  {
+    "tick": 0,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 15.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.016785144805908203
+  },
+  {
+    "tick": 0,
+    "agent": "ref_0",
+    "type": "refinery_buy",
+    "buy_amt": 25.0,
+    "cash": 9694.0,
+    "inventory": 25.0
+  },
+  {
+    "tick": 0,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 150.0,
+    "cash": 2620.0,
+    "inventory": 150.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.016443252563476562
+  },
+  {
+    "tick": 1,
+    "agent": "ref_1",
+    "type": "refinery_buy",
+    "buy_amt": 150.0,
+    "cash": 8173.18,
+    "inventory": 150.0
+  },
+  {
+    "tick": 1,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.016408920288085938
+  },
+  {
+    "tick": 1,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 75.0,
+    "cash": 3425.95,
+    "inventory": 75.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.017681121826171875
+  },
+  {
+    "tick": 1,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.014780044555664062
+  },
+  {
+    "tick": 1,
+    "agent": "ref_0",
+    "type": "refinery_buy",
+    "buy_amt": 75.0,
+    "cash": 8780.59,
+    "inventory": 100.0
+  },
+  {
+    "tick": 2,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.016755104064941406
+  },
+  {
+    "tick": 2,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.014893054962158203
+  },
+  {
+    "tick": 2,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 37.5,
+    "cash": 3829.3279749999997,
+    "inventory": 37.5,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.014687061309814453
+  },
+  {
+    "tick": 3,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.01694321632385254
+  },
+  {
+    "tick": 3,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 18.75,
+    "cash": 4031.2186514874998,
+    "inventory": 18.75,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.015166997909545898
+  },
+  {
+    "tick": 3,
+    "agent": "ref_0",
+    "type": "refinery_buy",
+    "buy_amt": 56.25,
+    "cash": 8094.1616999425005,
+    "inventory": 156.25
+  },
+  {
+    "tick": 3,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.014469146728515625
+  },
+  {
+    "tick": 4,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.01639103889465332
+  },
+  {
+    "tick": 4,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.018555164337158203
+  },
+  {
+    "tick": 4,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 9.375,
+    "cash": 4132.264935069494,
+    "inventory": 9.375,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.016263961791992188
+  },
+  {
+    "tick": 4,
+    "agent": "ref_1",
+    "type": "refinery_buy",
+    "buy_amt": 9.375,
+    "cash": 8058.660878607074,
+    "inventory": 159.375
+  },
+  {
+    "tick": 5,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.01654505729675293
+  },
+  {
+    "tick": 5,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 4.6875,
+    "cash": 4182.838600002282,
+    "inventory": 4.6875,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.017249107360839844
+  },
+  {
+    "tick": 5,
+    "agent": "ref_0",
+    "type": "refinery_buy",
+    "buy_amt": 4.6875,
+    "cash": 8036.844879685341,
+    "inventory": 160.9375
+  },
+  {
+    "tick": 5,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.017810821533203125
+  },
+  {
+    "tick": 6,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.017689943313598633
+  },
+  {
+    "tick": 6,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 2.34375,
+    "cash": 4208.150719301142,
+    "inventory": 2.34375,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.015288114547729492
+  },
+  {
+    "tick": 6,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.015787839889526367
+  },
+  {
+    "tick": 7,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.015865802764892578
+  },
+  {
+    "tick": 7,
+    "agent": "ref_0",
+    "type": "refinery_buy",
+    "buy_amt": 2.34375,
+    "cash": 8008.129124078094,
+    "inventory": 163.28125
+  },
+  {
+    "tick": 7,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.01557612419128418
+  },
+  {
+    "tick": 7,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 1.171875,
+    "cash": 4220.819435010221,
+    "inventory": 1.171875,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.014750957489013672
+  },
+  {
+    "tick": 8,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.014831066131591797
+  },
+  {
+    "tick": 8,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 0.5859375,
+    "cash": 4227.160127222615,
+    "inventory": 0.5859375,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.018175840377807617
+  },
+  {
+    "tick": 8,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.014870882034301758
+  },
+  {
+    "tick": 8,
+    "agent": "ref_1",
+    "type": "refinery_buy",
+    "buy_amt": 1.7578125,
+    "cash": 8037.102525084933,
+    "inventory": 161.1328125
+  },
+  {
+    "tick": 9,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.014748811721801758
+  },
+  {
+    "tick": 9,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.019985198974609375
+  },
+  {
+    "tick": 9,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 0.29296875,
+    "cash": 4230.333643674919,
+    "inventory": 0.29296875,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.015534162521362305
+  },
+  {
+    "tick": 10,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 0.146484375,
+    "cash": 4231.921988659296,
+    "inventory": 0.146484375,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.01687908172607422
+  },
+  {
+    "tick": 10,
+    "agent": "ref_0",
+    "type": "refinery_buy",
+    "buy_amt": 0.439453125,
+    "cash": 8002.728751131209,
+    "inventory": 163.720703125
+  },
+  {
+    "tick": 10,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.01660895347595215
+  },
+  {
+    "tick": 10,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.01566600799560547
+  },
+  {
+    "tick": 11,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.01482081413269043
+  },
+  {
+    "tick": 11,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 0.0732421875,
+    "cash": 4232.716955323977,
+    "inventory": 0.0732421875,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.015586137771606445
+  },
+  {
+    "tick": 11,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.015826940536499023
+  },
+  {
+    "tick": 12,
+    "agent": "ref_1",
+    "type": "refinery_buy",
+    "buy_amt": 0.0732421875,
+    "cash": 8036.200661902742,
+    "inventory": 161.2060546875
+  },
+  {
+    "tick": 12,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.01642012596130371
+  },
+  {
+    "tick": 12,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.018253803253173828
+  },
+  {
+    "tick": 12,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 0.03662109375,
+    "cash": 4233.11483613965,
+    "inventory": 0.03662109375,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.015661239624023438
+  },
+  {
+    "tick": 13,
+    "agent": "miner_1",
+    "type": "miner_step",
+    "sell_amt": 0.018310546875,
+    "cash": 4233.313975487894,
+    "inventory": 0.018310546875,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.016754150390625
+  },
+  {
+    "tick": 13,
+    "agent": "ref_0",
+    "type": "refinery_buy",
+    "buy_amt": 0.054931640625,
+    "cash": 8002.051677347178,
+    "inventory": 163.775634765625
+  },
+  {
+    "tick": 13,
+    "agent": "miner_0",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 308.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.018249034881591797
+  },
+  {
+    "tick": 13,
+    "agent": "miner_2",
+    "type": "miner_step",
+    "sell_amt": 0.0,
+    "cash": 362.0,
+    "inventory": 0.0,
+    "llm_resp": "[OLLAMA_ERR] Error: unknown flag: --temperature",
+    "elapsed": 0.017416954040527344
+  }
+]
