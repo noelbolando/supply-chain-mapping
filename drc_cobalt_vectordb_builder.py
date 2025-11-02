@@ -138,29 +138,12 @@ def reconstruct_supply_chain(vectorstore, query):
 
     # Step 3: Build reasoning prompt
     prompt = f"""
-    You are a supply chain analyst. I am a computational scientist interested in reconstructing the cobalt supply chain in the DRC.
-    Your role is to help me identify the key actors in the supply chain, as well as their relationship to each other, as well as their suppliers.
-    
-    Based on the context below, please search for and recover the following Metadata for me:
-    - Actor: ASM, LSM companies, traders, local traders, refiners, and depots (this list is not exhaustive and may include more categories based on your findings). 
-    - Role: extraction, transportation, refinery, trading company, and ports (this list is not exhaustive and may include more categoreis based on your findings). 
-    - Location: assocaited region, country, or countries 
-    - Name
-    - Partners: associated financial partners, and suppliers (this list is not exhaustive and may include more categoreis based on your findings).
-    - Domestic (DRC) or International
+    You are a supply chain network analyst.
+    Your role is to reconstruct the domestic cobalt supply chain in the DRC.
+    This should include actor and production nodes, as well as transporation and commodity flow edges.
 
-    Return as a JSON object structured as follows:
-    {{
-      "nodes": [
-        {{"id": "Actor", "Name": "Name", "location": "Region, Country, or Countries", "Type": "Domestic (DRC) or International", "Partners" : "Associated financial partners, suppliers, etc."}}
-      ],
-      "edges": [
-        {{"source": "Actor A", "target": "Actor B", "relation": "whatever the relation is"}}
-      ],
-      "notes": "If applicable, please leave a paragraph summaraizing your analysis of the opaque aspects of this supply chain. 
-      Please let me know what kinds inforamtion would help you construct a clearer picture of the cobalt supply chain. 
-      Thank you!"
-    }}
+    Please let me know what pieces of inforamtion would help you construct a clearer picture of the cobalt supply chain. 
+    Thank you!
 
     Context:
     {context}
@@ -267,8 +250,8 @@ if __name__ == "__main__":
     vectorstore = load_vectorstore()
 
     # Example queries
-    #query_supply_chain(vectorstore, "Please provide me a list of all actors, their associated countries, their roles, and who their supppliers are, in the domestic supply chain network for cobalt in the DRC. Please be verbose in your answer and share your sources. If you do not have a source, do not share that information. Inference is fine.")
-    #extract_entities(vectorstore, "Cobalt Mining DRC. Who are the actors, companies, traders, refineries, and depots? Where are they from? Are they domestic or international? Please be verbose with your answer and provid which source you are referring to in your answer. If you do not have a source, do not share that information. Inference is fine.")
+    query_supply_chain(vectorstore, "Please provide me a list of all actors, their associated countries, their roles, and who their supppliers are, in the domestic supply chain network for cobalt in the DRC. Please be verbose in your answer and share your sources. If you do not have a source, do not share that information. Inference is fine.")
+    extract_entities(vectorstore, "Cobalt Mining DRC. Who are the actors, companies, traders, refineries, and depots? Where are they from? Are they domestic or international? Please be verbose with your answer and provid which source you are referring to in your answer. If you do not have a source, do not share that information. Inference is fine.")
     reconstruct_supply_chain(vectorstore, "Please reconstruct the domestic cobalt supply chain. This should include actors involved in the mining, transportation, refining, and shipping of cobalt from cobalt and copper mines located in the DRC.")
 
     # Step 1: Reconstruct via LLM
